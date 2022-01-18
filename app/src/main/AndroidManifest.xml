@@ -13,7 +13,11 @@
             android:name=".AddActivity"
             android:exported="true"
             android:label="Add Book"
-            android:parentActivityName=".MainActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".UpdateActivity"
+            android:exported="true"
+            android:label="Update Book"
             />
         <activity
             android:name=".MainActivity"
@@ -21,7 +25,6 @@
             android:label="Book Library">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
